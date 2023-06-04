@@ -25,12 +25,9 @@ void CheckArray(int[] array)
 // Задача 43 начало
 void FindCrossPoint(int b1, int k1, int b2, int k2)
 {
-    double result = 0;
-
     double x = -(b1 - b2) / (k1 - k2);
     double y = k1 * x + b1;
- 
-Console.WriteLine($"Координаты точки пересечения: ({x};{y})");
+     Console.WriteLine($"Координаты точки пересечения: ({x};{y})");
 }
 // Задача 43 конец
 
